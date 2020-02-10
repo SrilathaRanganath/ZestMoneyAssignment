@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Price in Amazone is : 47900]]>
+    </line>
+    <line>
+      <![CDATA[Price in Flipkart is : 53999]]>
+    </line>
+    <line>
+      <![CDATA[Product iPhone XR(64GB)-Yellow price is lesser in Amazon than Flipkart]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46375" started-at="2020-02-10T06:47:34Z" finished-at="2020-02-10T06:48:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46375" started-at="2020-02-10T06:47:34Z" finished-at="2020-02-10T06:48:21Z">
+      <class name="scripts.ComparingProductPrice">
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:scripts.ComparingProductPrice@6d78f375]" name="Open_App" is-config="true" duration-ms="11636" started-at="2020-02-10T12:17:34Z" finished-at="2020-02-10T12:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="compare_price()[pri:0, instance:scripts.ComparingProductPrice@6d78f375]" name="compare_price" duration-ms="30140" started-at="2020-02-10T12:17:46Z" finished-at="2020-02-10T12:18:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Price in Amazone is : 47900]]>
+            </line>
+            <line>
+              <![CDATA[Price in Flipkart is : 53999]]>
+            </line>
+            <line>
+              <![CDATA[Product iPhone XR(64GB)-Yellow price is lesser in Amazon than Flipkart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- compare_price -->
+        <test-method status="PASS" signature="Close_App(org.testng.ITestResult)[pri:0, instance:scripts.ComparingProductPrice@6d78f375]" name="Close_App" is-config="true" duration-ms="4568" started-at="2020-02-10T12:18:16Z" finished-at="2020-02-10T12:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compare_price status=SUCCESS method=ComparingProductPrice.compare_price()[pri:0, instance:scripts.ComparingProductPrice@6d78f375] output=Price in Amazone is : 47900]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+      </class> <!-- scripts.ComparingProductPrice -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
